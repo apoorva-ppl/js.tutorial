@@ -1,0 +1,37 @@
+# comparison between same datatypes
+
+console.log(2>1);
+console.log(2>=1);
+console.log(2<1);
+console.log(2==1);
+console.log(2!=1);
+
+
+ console.log(null>0); #output:-false
+ console.log(null==0);  #output:-false
+ console.log(null>=0);  #output:-true
+ #(comparison converts null to a number , treating it as '0'. That's why null>=0 is true n null>0 is false)
+ #equality check== n comparisons <,>,>= works differently
+ #comparison of two different datatypes
+ 
+console.log("2">0); #true
+console.log("02">0); #true
+console.log(2>0); #true(because it converts different datatypes into a common one)
+ 
+ 
+let num = 5;
+let str = "5";
+
+ #Loose equality comparison (it converts both values to a common value)
+console.log(num == str);  #output=true (loose check = checks value)
+#Strict equality comparison (it compares two values for equality without converting their types )
+console.log(num === str); #Output: false(strict check = value and datatype both)
+
+console.log(undefined==0); #false
+console.log(undefined>0); #false
+console.log(undefined<0); #false
+//"undefined" is only loosely equal to null and no other value.
+//"undefined" when compared with any number gives output false in javascript.
+
+
+
