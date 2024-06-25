@@ -25,6 +25,8 @@ let stringNumber= String(someNumber)
 
 
 //*************OPERATIONS************//
+
+
 let value=3
 letnegValue= -value
 console.log(negValue);
@@ -45,5 +47,28 @@ console.log("1"+2);// two different typeof string
 console.log(1+"2");//two different type of string
 console.log("1"+2+2);//122
 console.log(1+2+"2");//32
+//pehle string hoga then all will  be conidered as string otherwise fisrt added then string 
+//ECMA has all the reasons how this works actually
 
 
+console.log(+true);//unary operator'+' converts true into numeric value 1
+console.log(+" ");// unary operator '1' provides trimmed space 
+
+let num1, num2, num3
+num1=num2=num3=2+2
+
+//prefix increment operator
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+
+
+//postfix increment operator
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
