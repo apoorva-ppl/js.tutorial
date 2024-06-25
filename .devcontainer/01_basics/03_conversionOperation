@@ -18,5 +18,32 @@ console.log(booleanIsLoggedIn);
 let someNumber=33
 
 let stringNumber= String(someNumber)
-console.log(stringNumber); //conversion of number into string 
-console.log(typeof stringNumber); //dataypeof the conversion occured 
+//console.log(stringNumber); //conversion of number into string 
+//console.log(typeof stringNumber); //dataypeof the conversion occured 
+
+
+
+
+//*************OPERATIONS************//
+let value=3
+letnegValue= -value
+console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2); //exponential output
+// console.log(2/2);//integer output
+// console.log(2%2); //remainder output
+
+let str1="hello"
+let str2="apoorva"
+//output hello apoorva
+let str3= str1+ str2
+console.log(str3);
+console.log("1"+2);// two different typeof string
+console.log(1+"2");//two different type of string
+console.log("1"+2+2);//122
+console.log(1+2+"2");//32
+
+
