@@ -18,5 +18,5 @@ console.log(booleanIsLoggedIn);
 let someNumber=33
 
 let stringNumber= String(someNumber)
-console.log(strinfNumber);
-console.log(typeof stringNumber);
+console.log(stringNumber); //conversion of number into string 
+console.log(typeof stringNumber); //dataypeof the conversion occured 
