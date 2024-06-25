@@ -35,3 +35,68 @@ const heroes = ["shaktiman", "nagraj", "doga"]
 
  console.log(typeof bigNumber); //bigNumber=34565734562387n output= bigInt
  console.log(typeof scoreValue) //output:-numberj
+
+
+
+
+
+ //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                      //Types of//
+ // Stack (primitive)
+ //Heap   (non-primitive)   
+ 
+ let myYoutubename="apoorvadotcom"
+ let anothername= "chaiaurcode"
+ console.log(myYoutubename); //output:-apoorvadotcome
+ console.log(anothername); //outpur:-chaiaurcode
+
+
+ let userOne= {
+    email: "user@google.com",
+    upi: "user@ybl"
+ }
+ let userTwo= userOne
+ userTwo.email ="apoorva@google.com"
+
+ console.log(userOne.email);// Output:-apoorva@google.com 
+ console.log(userTwo.email);// Output:-apoorva@google.com 
+
+ //STACK MEMEORY
+ function add(a, b) {
+    let sum = a + b;
+    return sum;
+  }
+  
+  let result = add(10, 5);
+
+
+
+  //DYNAMIC MEMORY
+  let person = {
+    name: "Alice",
+    age: 30
+  };
+  
+  function updateAge(obj, newAge) {
+    obj.age = newAge;
+  }
+  
+  updateAge(person, 31);
+  
+
+
+//   Stack Memory (LIFO):
+// ====================
+// |     add() call    | <- Top of the stack
+// |  result variable  |
+// |      main()       |
+// ====================
+
+// Heap Memory (Dynamic Allocation):
+// ===================================
+// |     person Object                |
+// |  { name: "Alice", age: 30 }      |
+// |   obj reference in updateAge()   |
+// ===================================
+
+  
